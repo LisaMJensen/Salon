@@ -1,10 +1,16 @@
+using System.Collections.Generic;
+
 namespace StylistCatalog.Models
 {
-    public class Client
+    public class Stylist
     {
-        public int ClientId { get; set; }
-        public string Description { get; set; }
+        public Stylist()
+        {
+            this.Clients = new HashSet<Client>();
+        }
+
         public int StylistId { get; set; }
-        public virtual Stylist Stylist { get; set; }
+        public string Name { get; set; }
+        public virtual ICollection<Client> Clients { get; set; }
     }
 }

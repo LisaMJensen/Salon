@@ -1,3 +1,22 @@
-h1#header {
+div#footer {
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;
+    background:#333;
+    padding:8px;
+}
 
+h1#header {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    color:white;
+    background:#0059b3;
+    padding:8px;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
 }

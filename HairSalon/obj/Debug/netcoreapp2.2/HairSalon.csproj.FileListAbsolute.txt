@@ -1,0 +1,6 @@
+C:\Users\Leese\Desktop\Salon\HairSalon\obj\Debug\netcoreapp2.2\HairSalon.csprojAssemblyReference.cache
+C:\Users\Leese\Desktop\Salon\HairSalon\obj\Debug\netcoreapp2.2\HairSalon.csproj.CoreCompileInputs.cache
+C:\Users\Leese\Desktop\Salon\HairSalon\obj\Debug\netcoreapp2.2\HairSalon.RazorAssemblyInfo.cache
+C:\Users\Leese\Desktop\Salon\HairSalon\obj\Debug\netcoreapp2.2\HairSalon.RazorAssemblyInfo.cs
+C:\Users\Leese\Desktop\Salon\HairSalon\obj\Debug\netcoreapp2.2\HairSalon.AssemblyInfoInputs.cache
+C:\Users\Leese\Desktop\Salon\HairSalon\obj\Debug\netcoreapp2.2\HairSalon.AssemblyInfo.cs
