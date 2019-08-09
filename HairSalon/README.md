@@ -17,8 +17,12 @@ _This web application allows the user to keep track of a hair salon's stylists a
 
 * _Clone the following github repository to view the code https://github.com/LisaMJensen/Salon  ._
 
-* _ ._
+* Using MySQL:
 
+> CREATE DATABASE lisa_jensen;
+> USE lisa_jensen;
+> CREATE TABLE stylists (StylistId serial PRIMARY KEY, Name VARCHAR(255));
+> CREATE TABLE clients (ClientId serial PRIMARY KEY, StylistId serial default 0, Name VARCHAR(255));
 
 ## Known Bugs
 * No known bugs at this time.
