@@ -17,6 +17,20 @@ h1#header {
     background:#0059b3;
     padding:8px;
     text-align: center;
-    font-family: 'Concert One', cursive;
     font-size: 40px;
+}
+
+img#scissors-flipped {
+    transform: scaleX(-1);
+    width: 30px;
+    height: auto;
+}
+
+img#scissors {
+    width: 30px;
+    height: auto;
+}
+
+body {
+    margin-top: 100px;
 }
