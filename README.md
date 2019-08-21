@@ -17,7 +17,7 @@ _This web application allows the user to keep track of a hair salon's stylists a
 > CREATE DATABASE lisa_jensen;
 > USE lisa_jensen;
 > CREATE TABLE stylists (StylistId serial PRIMARY KEY, Name VARCHAR(255));
-> CREATE TABLE clients (ClientId serial PRIMARY KEY, StylistId serial default 0, Name VARCHAR(255));
+> CREATE TABLE clients (ClientId serial PRIMARY KEY, StylistId PRIMARY KEY, Name VARCHAR(255));
 
 ## Known Bugs
 * No known bugs at this time.
